@@ -1,0 +1,21 @@
+# Secrets
+.env
+.env.*
+!.env.example
+settings.py
+# Local Python tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+# Simulation outputs and logs
+res/*
+!res/.gitkeep
+log/*.log
+log/*.txt
+# OS files
+.DS_Store
+Thumbs.db
